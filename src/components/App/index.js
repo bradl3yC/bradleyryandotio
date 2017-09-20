@@ -1,13 +1,26 @@
+// Dependencies
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './index.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+// Internals
+import Home from '../Home';
+import Portfolio from '../Portfolio';
+import BaseLayout from '../BaseLayout'
+import About from '../About'
+
+
 
 class App extends Component {
   render() {
     return (
-    <div>
-
-    </div>
+      <BrowserRouter>
+        <Switch>
+          <BaseLayout>
+            <Route exact path="/" component={Home}/>
+            <Route path="/about" component={About}/>
+            <Route path="/portfolio" component={Portfolio}/>
+          </BaseLayout>
+        </Switch>
+      </BrowserRouter>
     );
   }
 }
