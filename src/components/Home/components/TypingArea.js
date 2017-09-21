@@ -5,11 +5,10 @@ const TypingArea = styled.div`
   width: 500px;
   height: 200px;
   margin-left: 20px;
-  margin-top: 20px;
   margin-bottom: 20px;
   color: #ccc;
   padding: 5px 20px;
-  display: ${props => props.hidden ? 'none' : 'block'}
+  display: ${props => props.hidden ? 'none' : 'block'};
 `;
 
 export default TypingArea;

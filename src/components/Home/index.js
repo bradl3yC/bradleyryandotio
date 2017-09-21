@@ -3,6 +3,8 @@ import Typing from 'react-typing-animation'
 import TypingArea from './components/TypingArea'
 import Typed from './components/Typed'
 import Main from './components/Main'
+import TopBar from './components/TopBar'
+import RoundButton from './components/RoundButton'
 
 class Home extends Component {
   constructor(props) {
@@ -20,6 +22,11 @@ class Home extends Component {
   render() {
     return (
       <div>
+        <TopBar hidden={this.state.hideConsole}>
+          <RoundButton color={"#fc615d"} />
+          <RoundButton color={"#fec242"} />
+          <RoundButton color={"#35cd4b"} />
+        </TopBar>
         <TypingArea hidden={this.state.hideConsole}>
           <Typing speed={40} onFinishedTyping={this.toggleVisibility}>
             <Typed>&#60;h1&#62;BradleyRyan.io&#60;&#47;h1&#62;</Typed>
@@ -33,8 +40,7 @@ class Home extends Component {
           </Typing>
         </TypingArea>
         <Main visible={this.state.showMain}>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dignissimos accusamus tenetur officiis corporis debitis labore, dolores nam? Soluta saepe nulla rem eius hic non quidem quod. Pariatur, eum, tempore.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae incidunt quis, et qui fuga nobis illum obcaecati cumque totam reiciendis ullam quidem voluptas labore quae optio laborum, iste esse, similique.</p>
+
         </Main>
       </div>
     )

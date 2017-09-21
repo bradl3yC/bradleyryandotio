@@ -5,7 +5,7 @@ import Nav from './components/Nav'
 
 const NavBar = () => (
   <Nav>
-    <Title>BradleyRyan.io</Title>
+    <Title>Bradley Conley</Title>
     <StyledLink to="/">Home</StyledLink>
     <StyledLink to="/portfolio">Portfolio</StyledLink>
   </Nav>
