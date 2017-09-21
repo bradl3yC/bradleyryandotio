@@ -8,7 +8,6 @@ const NavBar = () => (
     <Title>BradleyRyan.io</Title>
     <StyledLink to="/">Home</StyledLink>
     <StyledLink to="/portfolio">Portfolio</StyledLink>
-    <StyledLink to="/about">About</StyledLink>
   </Nav>
 )
 

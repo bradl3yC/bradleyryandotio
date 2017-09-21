@@ -6,6 +6,7 @@ const TypingArea = styled.div`
   height: 200px;
   margin-left: 20px;
   margin-top: 20px;
+  margin-bottom: 20px;
   color: #ccc;
   padding: 5px 20px;
   display: ${props => props.hidden ? 'none' : 'block'}
