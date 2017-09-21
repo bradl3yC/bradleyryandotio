@@ -1,10 +1,15 @@
-import React, { Component } from 'react'
-import Typing from 'react-typing-animation'
-import TypingArea from './components/TypingArea'
-import Typed from './components/Typed'
-import Main from './components/Main'
-import TopBar from './components/TopBar'
-import RoundButton from './components/RoundButton'
+// Dependencies
+import React, { Component } from 'react';
+import Typing from 'react-typing-animation';
+// Internals
+import TypingArea from './components/TypingArea';
+import Typed from './components/Typed';
+import Main from './components/Main';
+import TopBar from './components/TopBar';
+import RoundButton from './components/RoundButton';
+// Externals
+import TechStack from '../TechStack';
+import Connect from '../Connect';
 
 class Home extends Component {
   constructor(props) {
@@ -28,7 +33,7 @@ class Home extends Component {
           <RoundButton color={"#35cd4b"} />
         </TopBar>
         <TypingArea hidden={this.state.hideConsole}>
-          <Typing speed={40} onFinishedTyping={this.toggleVisibility}>
+          <Typing speed={35} onFinishedTyping={this.toggleVisibility}>
             <Typed>&#60;h1&#62;BradleyRyan.io&#60;&#47;h1&#62;</Typed>
             <Typing.Delay ms={1000}/>
             <Typed>git add index.js</Typed>
@@ -40,7 +45,8 @@ class Home extends Component {
           </Typing>
         </TypingArea>
         <Main visible={this.state.showMain}>
-
+          <TechStack />
+          <Connect />
         </Main>
       </div>
     )

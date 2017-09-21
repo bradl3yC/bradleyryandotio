@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import NavBar from '../NavBar'
-import Main from './components/Main'
+import React, { Component } from 'react';
+import NavBar from '../NavBar';
+import Main from './components/Main';
 
 class BaseLayout extends Component {
   render() {
@@ -9,8 +9,8 @@ class BaseLayout extends Component {
         <NavBar />
         {this.props.children}
       </Main>
-    )
+    );
   }
 }
 
-export default BaseLayout
+export default BaseLayout;

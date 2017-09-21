@@ -4,10 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 // Internals
 import Home from '../Home';
 import Portfolio from '../Portfolio';
-import BaseLayout from '../BaseLayout'
-
-
-
+import BaseLayout from '../BaseLayout';
 
 class App extends Component {
   render() {
