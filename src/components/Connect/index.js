@@ -11,7 +11,7 @@ const Connect = () => (
     <Heading>&#60;Connect /&#62;</Heading>
     <ImageContainer>
       <ConnectLink href="https://www.linkedin.com/in/brad-conley/">
-        <ConnectImage src="images/linkedIn.png"/>
+        <ConnectImage src="images/linkedin.png"/>
       </ConnectLink>
       <ConnectLink href="https://github.com/bradl3yC">
         <ConnectImage src="images/github.png"/>
