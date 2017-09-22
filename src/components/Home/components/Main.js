@@ -12,6 +12,10 @@ const Main = styled.div`
     from { opacity: 0; }
     to   { opacity: 1; }
   }
+
+  @media (max-width: 700px) {
+    display: block;
+  }
 `;
 
 export default Main;

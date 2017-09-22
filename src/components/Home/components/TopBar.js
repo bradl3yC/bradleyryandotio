@@ -13,7 +13,7 @@ const TopBar = styled.div`
   flex-direction: row;
 
   @media (max-width: 700px) {
-    width: 240px;
+    display: none;
   }
 `;
 

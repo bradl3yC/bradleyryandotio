@@ -11,8 +11,7 @@ const TypingArea = styled.div`
   display: ${props => props.hidden ? 'none' : 'block'};
 
   @media (max-width: 700px) {
-    width: 200px;
-    height: 100px;
+    display: none;
   }
 `;
 
