@@ -1,14 +1,18 @@
+// Dependencies
 import React from 'react';
+// Externals
 import ImageContainer from '../global_components/ImageContainer';
+import Heading from '../global_components/Heading';
+import Colorize from '../global_components/Colorize';
+// Internals
 import ConnectImage from './components/ConnectImage';
 import ConnectLink from './components/ConnectLink';
-import Heading from '../global_components/Heading';
 
 
 
 const Connect = () => (
   <div>
-    <Heading>&#60;Connect /&#62;</Heading>
+    <Heading>&#60;<Colorize color="#e06c75"> Connect </Colorize>/&#62;</Heading>
     <ImageContainer>
       <ConnectLink href="https://www.linkedin.com/in/brad-conley/">
         <ConnectImage src="images/linkedin.png"/>

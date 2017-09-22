@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Main = styled.div`
-  height: 80vh;
+  height: 100%;
   margin: 3vh 3vh;
   padding: 1vh 1vh;
   background-color: rgba(0, 0, 0, 0.4);

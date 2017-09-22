@@ -1,11 +1,14 @@
-import React from 'react'
-import ImageContainer from '../global_components/ImageContainer'
-import Image from '../global_components/Image'
-import Heading from '../global_components/Heading'
+// Dependencies
+import React from 'react';
+// Externals
+import ImageContainer from '../global_components/ImageContainer';
+import Image from '../global_components/Image';
+import Heading from '../global_components/Heading';
+import Colorize from '../global_components/Colorize';
 
 const TechStack = () => (
   <div>
-    <Heading>&#60;TechStack /&#62;</Heading>
+    <Heading>&#60;<Colorize color="#c678dd"> Tech_Stack </Colorize>/&#62;</Heading>
     <ImageContainer>
       <Image src="images/javascript-plain.svg"/>
       <Image src="images/react-original.svg"/>
@@ -21,6 +24,6 @@ const TechStack = () => (
       <Image src="images/yarn-original.svg"/>
     </ImageContainer>
   </div>
-)
+);
 
-export default TechStack
+export default TechStack;
