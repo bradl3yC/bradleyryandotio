@@ -8,6 +8,9 @@ import Colorize from '../global_components/Colorize';
 import ConnectImage from './components/ConnectImage';
 import ConnectLink from './components/ConnectLink';
 
+import linkedinImg from "../../images/linkedin.png";
+import githubImg from "../../images/github.png";
+import twitterImg from "../../images/twitter.png";
 
 
 const Connect = () => (
@@ -15,13 +18,13 @@ const Connect = () => (
     <Heading>&#60;<Colorize color="#e06c75"> Connect </Colorize>/&#62;</Heading>
     <ImageContainer>
       <ConnectLink href="https://www.linkedin.com/in/brad-conley/">
-        <ConnectImage src="images/linkedin.png"/>
+        <ConnectImage src={linkedinImg}/>
       </ConnectLink>
       <ConnectLink href="https://github.com/bradl3yC">
-        <ConnectImage src="images/github.png"/>
+        <ConnectImage src={githubImg}/>
       </ConnectLink>
       <ConnectLink href="https://twitter.com/BradConl3y">
-        <ConnectImage src="images/twitter.png"/>
+        <ConnectImage src={twitterImg}/>
       </ConnectLink>
     </ImageContainer>
   </div>

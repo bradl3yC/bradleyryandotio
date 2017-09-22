@@ -11,6 +11,10 @@ const TopBar = styled.div`
   margin-top: 20px;
   padding-top: 3px;
   flex-direction: row;
+
+  @media (max-width: 700px) {
+    width: 240px;
+  }
 `;
 
 export default TopBar;

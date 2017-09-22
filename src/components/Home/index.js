@@ -29,7 +29,7 @@ class Home extends Component {
     return (
       <div>
         <TopBar hidden={this.state.hideConsole}>
-          <RoundButton color={"#fc615d"} />
+          <RoundButton onClick={this.toggleVisibility} color={"#fc615d"} />
           <RoundButton color={"#fec242"} />
           <RoundButton color={"#35cd4b"} />
         </TopBar>
