@@ -13,8 +13,8 @@ const NavBar = () => (
       <Colorize color="#61afef">_Bradley_Conley </Colorize>
       <Colorize color="#56c0c2">= </Colorize>
     </Heading>
-    <Heading><Colorize> &nbsp;(</Colorize></Heading>
-    <StyledLink color="#e06c75" to="/">Home </StyledLink>
+    <Heading><Colorize> (</Colorize></Heading>
+    <StyledLink color="#e06c75" to="/">Home</StyledLink>
     <Heading><Colorize color="#ccc">,</Colorize></Heading>
     <StyledLink color="#e06c75" to="/portfolio">Portfolio</StyledLink>
     <Heading>

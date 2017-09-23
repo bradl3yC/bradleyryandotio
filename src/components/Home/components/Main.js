@@ -2,8 +2,9 @@ import styled from 'styled-components';
 
 const Main = styled.div`
   height: 100%;
-  margin: 3vh 3vh;
-  padding: 1vh 1vh;
+  width: 88%;
+  margin: 2% 2%;
+  padding: 1% 1%;
   background-color: rgba(0, 0, 0, 0.4);
   display: ${props => props.visible ? 'block' : 'none'};
   animation: fadein 3s;
@@ -13,8 +14,15 @@ const Main = styled.div`
     to   { opacity: 1; }
   }
 
+  @media (max-width: 1024px) {
+    height: 100%;
+    width: 94%;
+  }
+
   @media (max-width: 700px) {
     display: block;
+    margin: 4% 4%;
+    width: 90%;
   }
 `;
 
