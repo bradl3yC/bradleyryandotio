@@ -4,11 +4,11 @@ import React from 'react';
 import Heading from '../global_components/Heading';
 import Colorize from '../global_components/Colorize';
 // Internals
-import PortfolioImage from './components/PortfolioImage'
-import AboutContainer from './components/AboutContainer'
-import AboutText from './components/AboutText'
+import PortfolioImage from './components/PortfolioImage';
+import AboutContainer from './components/AboutContainer';
+import AboutText from './components/AboutText';
 
-import portfolioPic from '../../images/portfolio-pic.jpg'
+import portfolioPic from '../../images/portfolio-pic.jpg';
 
 const About = () => (
   <div>
@@ -16,7 +16,10 @@ const About = () => (
     <AboutContainer>
       <PortfolioImage src={portfolioPic} />
       <AboutText>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora excepturi dolorum, sequi quisquam enim eveniet deleniti. Quibusdam consequuntur nam tempore expedita non voluptates, aliquam fuga, voluptatem commodi, doloribus aperiam illum.
+        My name is Bradley and I am an I.T. Support / Systems Administrator turned Developer.
+        I am proficient in React, Node, ES6 JavaScript, Ruby on Rails and have an
+        insatiable thirst for learning.  I am a recent St. Pete transplant,
+        father and lover of the arts.
       </AboutText>
     </AboutContainer>
   </div>

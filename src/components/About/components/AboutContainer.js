@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-const AboutContainer = styled.div`
+const PortfolioContainer = styled.div`
   display: flex;
   flex-direction: row;
 `;
 
-export default AboutContainer;
+export default PortfolioContainer;
