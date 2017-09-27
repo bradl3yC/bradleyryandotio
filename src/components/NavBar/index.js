@@ -10,7 +10,7 @@ import Nav from './components/Nav';
 const NavBar = () => (
   <Nav>
     <Heading>
-      <Colorize color="#61afef">_Bradley_Conley </Colorize>
+      <Colorize color="#61afef">bradleyRyan </Colorize>
       <Colorize color="#56c0c2">= </Colorize>
     </Heading>
     <Heading><Colorize> (</Colorize></Heading>
