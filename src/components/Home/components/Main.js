@@ -6,7 +6,6 @@ const Main = styled.div`
   margin: 2% 2%;
   padding: 1% 1%;
   background-color: rgba(0, 0, 0, 0.4);
-  display: ${props => props.visible ? 'block' : 'none'};
   animation: fadein 3s;
 
   @keyframes fadein {
